@@ -65,7 +65,6 @@ color:white;
 {
 width:100%;
 margin:auto;
-text-align:center;
 padding-top:100px;
 display:flex;
 font-family:Arial;
@@ -74,25 +73,24 @@ font-family:Arial;
 #Card 1, Card 2, Card 3, Card 4, Card 5
 {
 width:100%;
-//box-shadow: 0px 5px 15px 3px #0366d64d;
-//background-color:#0366d64d;
 }
 
 .Card
 {
-width:250px;
-height:500px;
+width:200px;
+height:450px;
 margin:auto;
-text-align:center;
-padding:10px;
+//text-align:center;
+padding:20px;
 background-color:#F7F7F8;
 box-shadow: 0px 5px 15px 3px #0366d64d;
 }
 
 .Card img
 {
-height:300px;
-padding-top:20px;
+height:250px;
+width:200px;
+padding-right:20px;
 }
 
 .Card:hover
@@ -104,24 +102,57 @@ transition:1.5s;
 
 h3
 {
-font-size:16px;
-padding-left:20px;
-padding-right:20px;
+font-size:15px;
+padding-left:10px;
+padding-right:10px;
+text-align:center;
+height:20px;
 }
 
 p
 {
 font-size:12px;
 text-align:justify;
-padding-left:20px;
-padding-right:20px;
+padding-left:5px;
+padding-right:5px;
+height:15px;
+margin-top:25px;
 }
 
 h4
 {
-text-align:center;
-position:relative;
-padding-bottom:20px;
+text-align:left;
+margin-top:60px;
+padding-left:5px;
+color:#aaaaaa;
+}
+
+button
+{
+background-color:#9650f6;
+border:none;
+color:white;
+padding:10px;
+border-radius:5px;
+cursor:pointer;
+float:right;
+margin-top:-12px;
+font-weight:600;
+font-size:12px;
+display:flex;
+height:40px;
+}
+
+button span
+{
+padding-right:5px;
+margin-top:-7px;
+}
+
+button:hover
+{
+background-color:#c99fee;
+border-radius:50px;
 }
 
 </style>
@@ -131,6 +162,8 @@ padding-bottom:20px;
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Moon+Dance&family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&icon_names=shopping_cart" />
 
 <h1> Glaze </h1>
 
@@ -152,36 +185,35 @@ padding-bottom:20px;
 	<img src="Images/Serum.jpg">
 	<h3> Glaze Serum </h3>
 	<p> Optimized with 3 different types of Hyaluronic Acid, it offers unrivalled results that can be enjoyed in just 1H. <p>
-	<h4> $ 149.99 </h4>
+	<h4> $ 149.99 <button> <span class="material-symbols-outlined"> shopping_cart </span> Add to Cart </button> </h4>
 	</div>
 
 	<div id="Card 2" class="Card">
 	<img src="Images/Day cream.jpg">
 	<h3> Glaze Day Cream </h3>
 	<p> Infused with Shea Butter, Sweet Almond Oil, and Vitamin E, it reduces wrinkles, firms skin, and shields against environmental damage. Its creamy texture absorbs easily, leaving skin soft and smooth. <p>
-	<h4> $ 249.99 </h4>
+	<h4> $ 249.99 <button> <span class="material-symbols-outlined"> shopping_cart </span> Add to Cart </button> </h4>
 	</div>
 
 	<div id="Card 3" class="Card">
 	<img src="Images/Night cream.jpg">
 	<h3> Glaze Repair Night Cream </h3>
 	<p> This intensive anti-aging night cream boasts a powerful blend of ingredients, including plant stem cells, soy extract, ribose, and the star performer, White Peony. <p>
-	<h4> $ 249.99 </h4>
+	<h4> $ 249.99 <button> <span class="material-symbols-outlined"> shopping_cart </span> Add to Cart </button> </h4>
 	</div>
 
 	<div id="Card 4" class="Card">
 	<img src="Images/Foaming cleanser.jpg">
 	<h3> Glaze Foaming Cleanser </h3>
 	<p> This features ceramides, hyaluronic acid, and niacinamide, and is formulated to help to maintain your skin’s protective barrier, lock in moisture, and calm your skin. <p>
-	<h4> $ 129.99 </h4>
+	<h4> $ 129.99 <button> <span class="material-symbols-outlined"> shopping_cart </span> Add to Cart </button> </h4>
 	</div>
 
 	<div id="Card 5" class="Card">
 	<img src="Images/Sunscreen.jpg">
 	<h3> Glaze Sunscreen SPF 70 PA+++ </h3>
-	<p> Glaze Sunscreen SPF 70 PA+++ </td>
-<td> The lightweight, non-greasy formula ensures maximum comfort throughout the day, making it suitable for all skin types. <p>
-	<h4> $ 249.99 </h4>
+	<p> The lightweight, non-greasy formula ensures maximum comfort throughout the day, making it suitable for all skin types. <p>
+	<h4> $ 249.99 <button> <span class="material-symbols-outlined"> shopping_cart </span> Add to Cart </button> </h4>
 	</div>
 
 </div>
